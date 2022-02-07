@@ -1,0 +1,84 @@
+#cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+
+#cart>table {
+    margin: 1em;
+    border: 1px dotted black;
+}
+
+#cart>table td {
+    text-align: center;
+    width: 5.5em;
+    border: 3px solid orange;
+}
+#cart>table tr th {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 5.5em;
+    border: 3px solid orange;
+}
+
+.discount {
+    margin: 1em;
+}
+
+.checkout button{
+    border-style: none;
+    background-color: black;
+    color: white;
+    width: 6em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.checkout {
+    margin: 1em;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    background-color: black;
+    color: whitesmoke;
+    margin: -10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 1em;
+}
+
+#count {
+    margin-right: 0.2em;
+    padding: 6px;
+    background-color: orange;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+#menu {
+    width: 100%;
+}

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    background-color: black;
+    color: whitesmoke;
+    margin: -10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-right: 1em;
+}
+
+#count {
+    margin-right: 0.2em;
+    padding: 6px;
+    background-color: orange;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+#menu {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2%;
+    width: 90%;
+    margin: auto;
+}
+
+.container>div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px dotted black;
+}
+
+.container>div>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.container>div>img {
+    margin-top: 1.5em;
+    width: 90%;
+}
+
+.container>div>button {
+    width: 100%;
+    padding: 3%;
+    background-color: orange;
+    border-style: none;
+}
+
+.container>div>button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.container>div:hover {
+    background-color: whitesmoke;
+}

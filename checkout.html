@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/checkout.css">
+</head>
+
+<body>
+    <section class="navigation">
+        <nav id="navbar">
+            <div class="logo">
+                <p style="font-size: 1.5em; font-weight: bolder; margin: 0px;"><span
+                        style="color: orange;">INDIAN</span> CHASKA</p>
+            </div>
+            <div class="right-section">
+                <ul>
+                    <li>Login</li>
+                    <li>Signup</li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div id="order-form" style="margin-top: 2em;">
+        <h2>Check Out</h2>
+        <input type="number" placeholder="Please Enter Your Phone No.">
+        <input type="text" placeholder="Please Enter Your Email">
+        <input class="btn" type="button" onclick="check()" value="SUBMIT YOUR ORDER">
+    </div>
+    <div class="Tracking Heading" style="text-align: center; margin-top: 3em;">
+        <h1>Track You Order</h1>
+    </div>
+    <div class="tracking_section" style="max-width: 300px; margin: auto;">
+        <div class="order_accepted" style="display: flex; align-items: center;">
+            <div class="checkBox"></div>
+            <div class="tick">✔</div>
+            <p class="message" style="margin-left: 10px; font-weight: bold;">Your Order Is Accepted </p>
+        </div>
+        <div class="order_cooked" style="display: flex; align-items: center;">
+            <div class="checkBox"></div>
+            <div class="tick">✔</div>
+            <p class="message" style="margin-left: 10px; font-weight: bold;">Your Order Is Beigng Cooked </p>
+        </div>
+        <div class="order_ready" style="display: flex; align-items: center;">
+            <div class="checkBox"></div>
+            <div class="tick">✔</div>
+            <p class="message" style="margin-left: 10px; font-weight: bold;">Your Order Is Ready</p>
+        </div>
+        <div class="order_out_delivery" style="display: flex; align-items: center;">
+            <div class="checkBox"></div>
+            <div class="tick">✔</div>
+            <p class="message" style="margin-left: 10px; font-weight: bold;">Your Order Is Out For Delivery </p>
+        </div>
+        <div class="order_delivered" style="display: flex; align-items: center;">
+            <div class="checkBox"></div>
+            <div class="tick">✔</div>
+            <p class="message" style="margin-left: 10px; font-weight: bold;">Your Order Delivered</p>
+        </div>
+    </div>
+</body>
+<script src="./scripts/checkout.js"></script>
+</html>
